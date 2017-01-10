@@ -1,0 +1,13 @@
+{
+  "default" : "winston",
+
+  "winston" : {
+    "driver" : "winston",
+    "logDir" : "$appPath/log",
+    "logFile" : "app.log",
+    "transports" : [
+      "console",
+      "file"
+    ]
+  }
+}

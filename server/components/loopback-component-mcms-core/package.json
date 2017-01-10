@@ -1,0 +1,20 @@
+{
+  "name" : "loopback-component-mcms-core",
+  "version": "0.0.1",
+  "description": "Core module for mcms loopback",
+  "main": "index.js",
+  "keywords": [
+    "loopback",
+    "MCMS",
+    "CMS",
+    "component"
+  ],
+  "author": "Michael Bouclas <mbouclas@gmail.com> (http://net-tomorrow.com/)",
+  "license": "MIT",
+  "scripts": {
+
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.55"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer"
+  },
+  "./components/loopback-component-mcms-core": {
+
+  },
+  "loopback-component-products": {
+
+  },
+  "./components/version": true
+}

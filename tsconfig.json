@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "es5",
+    "experimentalDecorators": true,
+    "typeroots": [
+      "../node_modules/@types"
+    ]
+  },
+  "files": [
+    "typings/index.d.ts"
+  ]
+}
