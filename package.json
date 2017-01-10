@@ -21,6 +21,7 @@
     "loopback-connector-mysql": "^2.4.0",
     "mcms-node-config-loader": "0.0.4",
     "serve-favicon": "^2.0.1",
+    "loopback-component-products": "^0.0.1",
     "strong-error-handler": "^1.0.1"
   },
   "devDependencies": {
