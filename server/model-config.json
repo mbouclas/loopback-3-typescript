@@ -35,5 +35,13 @@
   "Page": {
     "dataSource": "db",
     "public": true
+  },
+  "Products": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "ProductsCategories": {
+    "dataSource": "mysql",
+    "public": true
   }
 }

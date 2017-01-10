@@ -8,6 +8,13 @@ var IndexRouter = (function () {
     }
     IndexRouter.prototype.set = function () {
         // this.router.use(new ProductRouter(this.app));
+        var _this = this;
+        this.router.get('/test', function (req, res) {
+            _this.app.models.Products.findOne({})
+                .then(function (item) {
+                return res.send(item);
+            });
+        });
         return this.router;
     };
     return IndexRouter;
